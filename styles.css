@@ -1,0 +1,94 @@
+/*.logomain{
+    display: flex;
+    align-items:left;
+    margin-left: 10px;
+    width: 30px;
+}
+.menubarheader{
+    display: flex;
+    justify-content: space-between;
+}*/
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color:black; /* Set your desired background color */
+    color: white;
+}
+  
+  .logo img {
+    max-width: 100px; /* Set the maximum width for your logo */
+  }
+  
+  .menu ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  }
+  
+  .menu li {
+    margin-right: 20px; /* Adjust the spacing between menu items */
+  }
+  a:link {
+    text-decoration: none; /* Remove underline */
+    color: white; /* Default link color */
+    font-size: larger;
+}
+
+
+
+  .actions {
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  .actions button {
+    background: black;
+    color: white;
+    font-size: large;
+    margin-right: 10px; /* Adjust the spacing between buttons */
+    border: none;
+}
+
+
+  .body {
+    background-image: url('./images/dall\ e\ bg.jpg'); /* Replace 'your-image.jpg' with the path to your image */
+    background-repeat: no-repeat;
+    background-size: cover; /* You can use 'cover' or 'contain' depending on your preference */
+    /* Additional CSS properties for background, such as background-color, can be added here */
+    color: white;
+    
+  }
+
+  .maintext{
+    font-size: 70px;
+    margin-left: 200px;
+    margin-top :220px;
+    font-style: italic;
+
+   
+  }
+  .phara{
+    font-size: 30px;
+    margin-left: 200px;
+    background-color: black;
+    
+  }
+
+  .menufooter a{        
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color:black; /* Set your desired background color */
+    color: white;
+  }
+  .dat{
+    font-size: 20px;
+    display: flex;
+  }
+  
+   
+  
